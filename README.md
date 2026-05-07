@@ -107,27 +107,49 @@ Radio buttons allow switching between angle systems dynamically.
 
 ```bash
 Scientific-Calculator/
-│
 ├── README.md
 ├── requirements.txt
 ├── main.py
-│
 ├── src/
 │   ├── calculator/
+│   │   ├── __init__.py
 │   │   ├── basic_operations/
+│   │   │   └── operations.py
 │   │   ├── scientific_operations/
+│   │   │   └── scientific.py
 │   │   ├── memory/
+│   │   │   └── memory.py
 │   │   ├── history/
+│   │   │   └── history_manager.py
 │   │   ├── parser/
+│   │   │   └── expression_parser.py
 │   │   ├── validation/
+│   │   │   └── validator.py
 │   │   ├── security/
+│   │   │   └── safe_eval.py
 │   │   └── utils/
-│   │
+│   │       ├── logger.py
+│   │       ├── helpers.py
+│   │       └── constants.py
 │   └── ui/
 │       ├── calculator_window.py
 │       ├── button_layout.py
 │       ├── display_screen.py
-│       └── history_panel.py
+│       ├── history_panel.py
+│       └── keyboard_support.py
+├── tests/
+│   ├── test_operations.py
+│   ├── test_scientific.py
+│   ├── test_history.py
+│   └── test_validation.py
+├── assets/
+│   └── icons/
+├── temp/
+│   └── session_history.tmp
+├── logs/
+│   └── app.log
+└── config/
+    └── app_settings.json
 ```
 
 ---
