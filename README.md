@@ -239,7 +239,7 @@ The calculator handles:
 
 Developed by:
 
-**Shuba**
+**Sudharshan S**
 
 Computer Science Engineering
 
